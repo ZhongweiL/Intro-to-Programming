@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/collapsible.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Mobile App Development</title>
+    </head>
+    <body>
+        <h1>Getting into the World of Programming</h1>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="getting-started.html">Getting Started</a>
+            <!--Dropdown menu template from https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">
+                    Subfields
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="web-development.html">Web Development</a>
+                    <a href="mobile-app-development.html">Mobile App Development</a>
+                    <a href="game-development.html">Game Development</a>
+                    <a href="other.html">Other</a>
+                </div>
+            </div>
+        </nav>
+        <p class="intro-title">Mobile App Development</p>
+        <p class="intro smaller-font">
+            Mobile App Development is the process of building apps
+            that run on smartphones. There are many platforms that
+            runs mobile apps, but the two majors ones are iOS and 
+            Android. While there are many languages that can be used
+            to develop mobile apps, the easiest options would be
+            the languages that are commonly used for mobile
+            app development, they are Swift for iOS and Kotlin for
+            Android. This page will be committed to introducing
+            Swift and Kotlin for people to get started with building
+            iOS and Android apps. Click
+            <a href="https://www.ibm.com/cloud/learn/mobile-application-development-explained" target="_blank">here</a>
+            to learn more about mobile app development.
+        </p>
+        <!--Collapsible template from https://www.w3schools.com/howto/howto_js_collapsible.asp-->
+        <button type="button" class="collapsible">Swift</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        The most used programming language at Apple. It was introduced
+                        in 2014 to replace Objective-C as the primary language used
+                        at Apple. Swift is being ran on Xcode, which is an IDE (Integrated
+                        Development Environment) used for code editing for MacOS.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html" target="_blank">Swift - Language Guide</a>
+                        </li>
+                        <li>
+                            <a href="https://www.codecademy.com/learn/learn-swift" target="_blank">Codecademy - Learn Swift</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/comQ1-x2a1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">Kotlin</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        The prefered language for building Android apps. It
+                        is fully compatible to Java, which is another language
+                        widely used for Android development but has a simpler syntax
+                        to work with. This makes it more productive and easier
+                        than Java to start with building Android apps.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.codecademy.com/catalog/language/kotlin" target="_blank">Codecademy - Kotlin</a>
+                        </li>
+                        <li>
+                            <a href="https://developer.android.com/courses/android-basics-kotlin/course" target="_blank">Android Developers - Android Basics in Kotlin</a>
+                        </li>
+                        <li>
+                            <a href="https://kotlinlang.org/docs/getting-started.html" target="_blank">Kotlin - Get started with Kotlin</a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/android-oreo-kotlin-app-masterclass/" target="_blank">Udemy - Android App Development Masterclass using Kotlin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F9UC9DY-vIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <script src="../javascript/nav.js"></script>
+        <script src="../javascript/collapsible.js"></script>
+    </body>
+</html>

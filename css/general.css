@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: url('../images/spikes.png');
+}
+
+.intro-title {
+    font-weight: bold;
+    font-size: 30px;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+    font-size: 30px;
+    width: 50%;
+    min-width: 550px;
+    margin: 10px auto 40px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.smaller-font {
+    font-size: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #ffb52e;
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #d18700;
+}
+
+.tech {
+    display: flex;
+}
+
+.tech > * {
+    flex: 1;
+    text-align: left;
+}
+
+.tech .video {
+    text-align: right;
+}
+
+.tech ul {
+    list-style-type: none;
+}
+
+.tech p {
+    font-size: 20px;
+}
+
+.other-title {
+    font-size: 25px;
+    text-align: left;
+    text-decoration: underline;
+
+}
+
+.other-text {
+    text-align: left;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .tech iframe {
+        width: 480px;
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tech {
+        flex-direction: column;
+    }
+    .tech .video {
+        text-align: center;
+    }
+}

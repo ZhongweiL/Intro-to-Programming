@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/collapsible.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Web Development</title>
+    </head>
+    <body>
+        <h1>Getting into the World of Programming</h1>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="getting-started.html">Getting Started</a>
+            <!--Dropdown menu template from https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">
+                    Subfields
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="web-development.html">Web Development</a>
+                    <a href="mobile-app-development.html">Mobile App Development</a>
+                    <a href="game-development.html">Game Development</a>
+                    <a href="other.html">Other</a>
+                </div>
+            </div>
+        </nav>
+        <p class="intro-title">Web Development</p>
+        <p class="intro smaller-font">
+            Web development is the process of building
+            applications or services that runs through a web browser.
+            This page will be committed to introducing some technologies
+            like HTML/CSS and other web frameworks used in web development.
+            A web framework is a framework that provides some functionalities
+            that are commonly used, they are meant to automate and speed up
+            the development process. A web application can usually be seen as
+            two parts, the frontend and the backend. The frontend is the part that
+            is visible to the user, like the design of a button or how easy
+            it is to navigate the web page. The backend is the part that manages
+            the data to be presented to the frontend. This website introduces 
+            frameworks for both frontend and backend. Click 
+            <a href="https://www.codeconquest.com/what-is-coding/web-programming/#:~:text=Front%2Dend%20development%20refers%20to,%E2%80%93%20HTML%2C%20CSS%20and%20JavaScript.&text=Every%20web%20page%20on%20the,backbone%20of%20any%20web%20application." target="_blank" >here</a>
+            for a more detailed overview.
+        </p>
+        <!--Collapsible template from https://www.w3schools.com/howto/howto_js_collapsible.asp-->
+        <button type="button" class="collapsible">HTML/CSS (Front-end)</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        HTML (HyperText Markup Language) is a language specifically
+                        designed to build web pages, it sets up the structures of
+                        the web page. It is usually used with CSS (Cascading Style Sheets)
+                        which adds stylings based on the structure provided by HTML.
+                        People often describe HTML and CSS as the skeleton and
+                        the skin of a website.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.w3schools.com/html/" target="_blank">W3schools - HTML Tutorial</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/css/" target="_blank">W3schools - CSS tutorial</a>
+                        </li>
+                        <li>
+                            <a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="_blank">FreeCodeCamp - Responsive Web Design</a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/modern-html-css-from-the-beginning/" target="_blank">Modern HTML & CSS From The Beginning (Including Sass)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hu-q2zYwEYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">React (Front-end)</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        A JavaScript library for building user interfaces. Although
+                        it is not a framework, it is comparable to a framework.
+                        One of the most popular and beginner friendly frontend
+                        technologies.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">reactjs.org - Tutorial: Intro to React</a>
+                        </li>
+                        <li>
+                            <a href="https://www.codecademy.com/learn/react-101" target="_blank">Codecademy - React 101</a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/react-redux/" target="_blank">Udemy - Modern React with Redux [2020 Update]</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/w7ejDZ8SWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">Flask (Back-end)</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        A python based microframework for backend, it is minimalist
+                        and therefore beginner friendly. It is best suited to build
+                        small applications and is a good choice to get started with
+                        backend development,
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://flask.palletsprojects.com/en/2.0.x/tutorial/index.html" target="_blank">flask.palletsprojects.com - Tutorial</a>
+                        </li>
+                        <li>
+                            <a href="https://cs50.harvard.edu/x/2021/weeks/9/" target="_blank">CS50 - This is CS50x (Week 9)</a>
+                        </li>
+                        <li>
+                            <a href="https://www.amazon.com/Flask-Web-Development-Developing-Applications-ebook-dp-B07B8DCCN7/dp/B07B8DCCN7/ref=mt_other?_encoding=UTF8&me=&qid=1621395379" target="_blank">Flask Web Development: Developing Web Applications with Python (Book)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mqhxxeeTbu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">Node.js/Express.js (Back-end)</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        Node.js is a run time environment for JavaScript, it
+                        allows JavaScript to run outside of a browser so that
+                        JavaScript can be used in the backend. It is best used with
+                        Express.js, a JavaScript backend framework. Just like
+                        Flask, it is also minimalist and easy to get started with.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.udemy.com/course/the-complete-nodejs-developer-course-2/" target="_blank">Udemy - The Complete Node.js Developer Course</a>
+                        </li>
+                        <li>
+                            <a href="https://www.manning.com/books/get-programming-with-node-js" target="_blank">Get Programming with Node.js (Book)</a>
+                        </li>
+                        <li>
+                            <a href="https://expressjs.com/en/starter/installing.html" target="_blank">expressjs - Getting started</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/expressjs/index.htm" target="_blank">Tutorials Point - ExpressJS Tutorial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/L72fhGm1tfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <script src="../javascript/nav.js"></script>
+        <script src="../javascript/collapsible.js"></script>
+    </body>
+</html>

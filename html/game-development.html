@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/collapsible.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Game Development</title>
+    </head>
+    <body>
+        <h1>Getting into the World of Programming</h1>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="getting-started.html">Getting Started</a>
+            <!--Dropdown menu template from https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">
+                    Subfields
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="web-development.html">Web Development</a>
+                    <a href="mobile-app-development.html">Mobile App Development</a>
+                    <a href="game-development.html">Game Development</a>
+                    <a href="other.html">Other</a>
+                </div>
+            </div>
+        </nav>
+        <p class="intro-title">Game Development</p>
+        <p class="intro smaller-font">
+            Game development is the process of building video games.
+            To make the game development process easier, game
+            developers often rely on game development software.
+            They can be game engines that provide a platform for 
+            game development, or frameworks/libraries that create 
+            2D or 3D graphics. This page will be committed to introducing
+            some of the game development software. Click
+            <a href="https://www.freecodecamp.org/news/what-is-game-development/" target="_blank">here</a>
+            to learn more about game development.
+        </p>
+        <!--Collapsible template from https://www.w3schools.com/howto/howto_js_collapsible.asp-->
+        <button type="button" class="collapsible">Pygame</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        Python modules for building 2D games. It is easy to get
+                        started with and it provides powerful tools for building 2D
+                        games like 2D graphics and sound libraries. Only basic python
+                        knowledge is needed to get started.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://pythonprogramming.net/pygame-python-3-part-1-intro/" target="_blank">Python Programming - Introduction to PyGame</a>
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org/projects/getting-started-with-game-development-using-pygame" target="_blank">Coursera - Getting Started With Game Development Using PyGame</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jO6qQDNa2UY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">OpenGL</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        A library that provides a set of API (Application 
+                        Programming Interface) used for rendering 2D or 3D graphics.
+                        It is usually used with C++.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://open.gl/" target="_blank">open.gl - Introduction</a>
+                        </li>
+                        <li>
+                            <a href="https://nicolbolas.github.io/oldtut/index.html" target="_blank">Learning Modern 3D Graphics Programming (Online Book)</a>
+                        </li>
+                        <li>
+                            <a href="https://en.wikibooks.org/wiki/OpenGL_Programming" target="_blank">Wikibooks - OpenGL Programming</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/45MIykWJ-C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">Unity</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        A game engine best used with C#, a language very
+                        similar to Java. It was relased in 2005 and was only
+                        available to Mac OS, it can now be used on all
+                        major operating systems. It can be used to build 
+                        both 2D and 3D games.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.codecademy.com/learn/learn-c-sharp" target="_blank">Codecademy - Learn C#</a>
+                        </li>
+                        <li>
+                            <a href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Learn - Unity Essentials</a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/unitycourse/" target="_blank">Udemy - Complete C# Unity Game Developer 2D</a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/unitycourse2/" target="_blank">Udemy - Complete C# Unity Game Developer 3D</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gB1F9G0JXOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">Unreal Engine</button>
+        <div class="content">
+            <div class="tech">
+                <div class="texts">
+                    <p>
+                        A game engine that is used with C++. Although it
+                        was originally developed for building first-person
+                        shooter games, it now focuses on any type of 3D
+                        games. Fortnite, PlayerUnknown's Battlegrounds,
+                        Valorant are few of the most popular games developed
+                        with Unreal Engine.
+                    </p>
+                    <p>Learning Resources:</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.unrealengine.com/en-US/onlinelearning-courses/your-first-hour-in-unreal-engine-4" target="_blank">Unreal Engine - Your First Hour in Unreal Engine 4</a>
+                        </li>
+                        <li>
+                            <a href="https://www.raywenderlich.com/771-unreal-engine-4-tutorial-for-beginners-getting-started" target="_blank">Unreal Engine 4 Tutorial for Beginners: Getting Started</a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/unrealcourse/" target="_blank">Udemy - Unreal Engine C++ Developer: Learn C++ and Make Video Games</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_a6kcSP8R1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <script src="../javascript/nav.js"></script>
+        <script src="../javascript/collapsible.js"></script>
+    </body>
+</html>

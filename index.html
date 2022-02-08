@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/general.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Getting into the World of Programming</h1>
+        <!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="html/getting-started.html">Getting Started</a>
+            <div class="dropdown">
+                <!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+                <button class="dropbtn" onclick="myFunction()">
+                    Subfields
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="html/web-development.html">Web Development</a>
+                    <a href="html/mobile-app-development.html">Mobile App Development</a>
+                    <a href="html/game-development.html">Game Development</a>
+                    <a href="html/other.html">Other</a>
+                </div>
+            </div>
+        </nav>
+        <p class="intro-title">About</p>
+        <p class="intro">
+            This website is intended to guide people into the world of
+            programming. It is especially for people that have little to no idea
+            of how to get started with programming. It also introduces different
+            subfields within the tech industry and shares some learning
+            resources on different topics.
+        </p>
+        <br />
+        <br />
+        <a class="btn" href="html/getting-started.html">Get Started</a>
+        <script src="javascript/nav.js"></script>
+    </body>
+</html>
